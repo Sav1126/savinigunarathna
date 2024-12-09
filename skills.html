@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Skills</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Inline styles for skills page */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+        header {
+            background: linear-gradient(90deg, #4e54c8, #8f94fb);
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2rem;
+        }
+
+        main {
+            padding: 40px 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .skills-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 20px;
+        }
+
+        .skill {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .skill:hover {
+            transform: scale(1.05);
+            box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .skill img {
+            width: 60px;
+            height: 60px;
+            margin-bottom: 10px;
+        }
+
+        .skill h3 {
+            margin: 0;
+            color: #4e54c8;
+            font-size: 1.2rem;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            background-color: #333;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Skills</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="projects.html">Projects</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <div class="skills-container">
+            <!-- Skill: Java -->
+            <div class="skill">
+                <img src="icons/java.png" alt="Java">
+                <h3>Java</h3>
+            </div>
+            <!-- Skill: C++ -->
+            <div class="skill">
+                <img src="icons/cpp.png" alt="C++">
+                <h3>C++</h3>
+            </div>
+            <!-- Skill: JavaScript -->
+            <div class="skill">
+                <img src="icons/js.png" alt="JavaScript">
+                <h3>JavaScript</h3>
+            </div>
+            <!-- Skill: HTML -->
+            <div class="skill">
+                <img src="icons/html.png" alt="HTML">
+                <h3>HTML</h3>
+            </div>
+            <!-- Skill: CSS -->
+            <div class="skill">
+                <img src="icons/css.png" alt="CSS">
+                <h3>CSS</h3>
+            </div>
+            <!-- Skill: PHP -->
+            <div class="skill">
+                <img src="icons/php.png" alt="PHP">
+                <h3>PHP</h3>
+            </div>
+            <!-- Skill: Python -->
+            <div class="skill">
+                <img src="icons/python.png" alt="Python">
+                <h3>Python</h3>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>© 2024 My Portfolio</p>
+    </footer>
+</body>
+</html>

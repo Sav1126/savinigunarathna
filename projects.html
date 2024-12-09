@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Projects</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Inline styles for quick preview (move to styles.css for better structure) */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+        header {
+            background: linear-gradient(90deg, #4e54c8, #8f94fb);
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2rem;
+        }
+
+        main {
+            padding: 40px 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .project {
+            background: white;
+            margin-bottom: 20px;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s;
+        }
+
+        .project:hover {
+            transform: scale(1.02);
+        }
+
+        .project h2 {
+            margin-top: 0;
+            color: #4e54c8;
+        }
+
+        .project p {
+            line-height: 1.6;
+            color: #666;
+        }
+
+        .project-links {
+            margin-top: 10px;
+        }
+
+        .project-links a {
+            text-decoration: none;
+            margin-right: 15px;
+            padding: 10px 20px;
+            border-radius: 5px;
+            background-color: #8f94fb;
+            color: white;
+            font-size: 0.9rem;
+            transition: background-color 0.3s;
+        }
+
+        .project-links a:hover {
+            background-color: #4e54c8;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            background-color: #333;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Projects</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <div class="project">
+            <h2>Project 1: E-Commerce Website</h2>
+            <p>
+                Designed and developed a fully responsive e-commerce website with user authentication, a product catalog, and a shopping cart feature. Implemented using HTML, CSS, JavaScript, and PHP.
+            </p>
+            <div class="project-links">
+                <a href="https://github.com/yourusername/project1" target="_blank">GitHub</a>
+                <a href="https://your-project1-live-demo.com" target="_blank">Live Demo</a>
+            </div>
+        </div>
+
+        <div class="project">
+            <h2>Project 2: Blog Platform</h2>
+            <p>
+                Created a blog platform where users can post, edit, and delete articles. Integrated a comment system and used MySQL for the backend database.
+            </p>
+            <div class="project-links">
+                <a href="https://github.com/yourusername/project2" target="_blank">GitHub</a>
+                <a href="https://your-blog-live-demo.com" target="_blank">Live Demo</a>
+            </div>
+        </div>
+
+        <div class="project">
+            <h2>Project 3: Weather App</h2>
+            <p>
+                Built a weather forecasting app using a third-party weather API. Features include real-time weather data, a five-day forecast, and city search functionality.
+            </p>
+            <div class="project-links">
+                <a href="https://github.com/yourusername/project3" target="_blank">GitHub</a>
+                <a href="https://your-weather-app-demo.com" target="_blank">Live Demo</a>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>© 2024 My Portfolio</p>
+    </footer>
+</body>
+</html>
